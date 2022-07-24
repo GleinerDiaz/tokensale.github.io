@@ -1,0 +1,83 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 620px;
+}
+
+.main_login .form_login{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(23, 189, 23);
+    border-radius: 0px 10px 10px 0px;
+    height: 70%;
+}
+
+.main_login .form_login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.main_login .form_login form input,a{
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-left: 5px solid rgb(23, 189, 23);
+    width: 60%;
+}
+
+.main_login .form_login form a{
+    background-color: rgb(23, 189, 23);
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    border-left: 1px solid gray;
+}
+
+.main_login .form_login h2{
+    margin-bottom: 20px;
+}
+
+.main_login .info_login{
+    background-color: rgb(23, 189, 23);
+    border: 1px solid rgb(23, 189, 23);
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 35%;
+}
+
+.main_login .info_login img{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 20px;
+}
+
+.main_login .info_login h1{
+    color: white;
+}
+
+.main_login .info_login p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
